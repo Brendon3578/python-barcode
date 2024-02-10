@@ -10,6 +10,9 @@ tags_routes_bp = Blueprint('tags_routes', __name__)
 
 @tags_routes_bp.route('/create_tag', methods=["POST"])
 def create_tags():
+    '''
+    /create_tag controller to handle http request to generate barcode
+    '''
     response = None
     try:
         tag_creator_validator(request)

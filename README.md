@@ -11,7 +11,7 @@
 
 ## 👨‍🚀 Projeto
 
-Essa aplicação é um Backend desenvolvido em Python durante a **Next Level Week - Expert** para a geração de etiquetas de códigos de barras de produtos, com ele é possível gerar o código de barras do tipo `CODE 128`
+Esse projeto é uma aplicação backend (utilizada em um servidor) desenvolvido com Python durante a **Next Level Week - Expert**, voltado para a geração de etiquetas de códigos de barras de produtos, com ele é possível gerar o código de barras do tipo `CODE 128` que pode futuramente ser impressa e colada em um produto que será entregue.
 
 ## 🚀 Tecnologias
 
@@ -63,11 +63,16 @@ Será retornado na *response* o seguinte documento JSON, contenho o caminho da i
 {
     "data": {
         "count": 1,
-        "path": "123-231-213.png",
+        "path": "output/123-231-213.png",
         "type": "Tag Image"
     }
 }
+
 ```
+
+Imagem gerada:
+
+![Imagem de um código de barra gerado](./assets/123-231-213.png)
 
 ## 🧪 Testes unitários
 
